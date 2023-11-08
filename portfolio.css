@@ -1,0 +1,55 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 0px;
+}
+#img1{
+    height: 500px;
+    
+}
+#text_div{
+    width: 50%;
+    padding: 0 0 0 30px;
+}
+#img_div{
+    width: 50%;
+}
+.text_div_h1{
+    font-size: 44px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text_div_h4{
+    font-size: 24px;
+}
+.text_div_p{
+    font-size:20px ;
+    text-align: justify;
+    line-height: 24px;
+}
+#colorfull_name{
+    color: rgb(80, 80, 240);
+}
+#colorfull_name:hover{
+    color: red;
+    transition: 1s;
+}
+button{
+    padding: 20 50px;
+    font-size: 18px;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-image: linear-gradient(orange, tomato);
+    transition: 1s;
+}
